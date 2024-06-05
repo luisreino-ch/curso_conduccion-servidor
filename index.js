@@ -2,7 +2,7 @@ const app = require('express')();
 const cors = require('cors')
 const http = require('http').Server(app);
 const express = require('express'); // para manejar como servicio
-const hostname = '127.0.0.1';
+const hostname = '';
 const port = 3000;
 
 app.use(cors())
